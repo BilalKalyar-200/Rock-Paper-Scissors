@@ -1,46 +1,67 @@
-**Rock Paper Scissors Game**
-This is a simple web-based Rock Paper Scissors game created while practicing HTML, CSS, and JavaScript. The game can be played against the computer, or you can enable an autoplay mode where two computer players face off continuously to demonstrate the game logic.
 
-**Features:**
+# 🪨 Rock Paper Scissors Game
 
-Play Rock, Paper, or Scissors against the computer.
+This is a simple web-based **Rock Paper Scissors** game built while practicing **HTML**, **CSS**, and **JavaScript**.  
+You can play against the computer or enable autoplay to let both players be controlled by the computer to showcase the game logic.
 
-View live results with emoji feedback.
+---
 
-Score is saved using localStorage — it stays even after refreshing the page.
+## 🎮 Features
 
-Autoplay mode: lets the computer play against itself to showcase game logic.
+- 🕹️ Play Rock, Paper, or Scissors against the computer  
+- 💾 Score is saved using `localStorage` — survives page reloads  
+- 🤖 Autoplay mode: lets the computer play against itself  
+- 📊 Real-time result display with emojis and images  
 
-Built With:
-**
-HTML
+---
 
-CSS
+## 🛠️ Built With
 
-JavaScript (Vanilla)**
+- 🌐 HTML  
+- 🎨 CSS  
+- 📜 JavaScript (Vanilla)
 
-**File Structure:**
+---
 
-index.html — Main HTML file
+## 📁 File Structure
 
-styles.css — Styling and layout
+```
 
-main.js — Game logic
+/project-folder
+│
+├── index.html          # Main HTML file
+├── styles.css          # CSS for layout and visuals
+├── main.js             # Game logic
+├── rock.png            # Rock icon
+├── paper.png           # Paper icon
+└── scissors.png        # Scissors icon
 
-rock.png — Rock icon
+```
 
-paper.png — Paper icon
+> 📌 Make sure the image files (`rock.png`, `paper.png`, `scissors.png`) are in the same folder as `index.html`.
 
-scissors.png — Scissors icon
+---
 
-Make sure the image files (rock.png, paper.png, scissors.png) are placed in the same folder as index.html.
+## 🚀 How to Run
 
-**How to Run:**
+1. 📥 Clone or download this repository  
+2. 📂 Open `index.html` in your browser  
+3. 🧠 Start playing!
 
-Download or clone the project.
+> 💡 Tip: For better results (especially with localStorage), run it using a local server like **Live Server** in VS Code.
 
-Open index.html in your browser.
+---
 
-Start playing!
+## 🔮 Future Improvements
 
-Tip: For best results, use a local server like VS Code Live Server, especially if localStorage is not working when you double-click the file.
+- 🔊 Add sound effects  
+- 💫 Add animations and visual feedback  
+- 🧠 Add difficulty levels or a score history tracker  
+
+---
+
+## 👤 Author
+
+**Bilal Mohsin**  
+📧 mohsinkalyarpk@gmail.com  
+🔗 [GitHub Profile](https://github.com/BilalKalyar-200)
