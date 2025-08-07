@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.button-class{
+  background: transparent;
+  border: 3px solid rgb(70, 27, 185);
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(70, 27, 185, 0.4);
+}
+.button-class:hover{
+  box-shadow: 0 0 20px 6px rgba(70, 27, 185, 0.8);
+  transform: scale(1.05);
+  border-color: white;
+}
+.icons{
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+.button-class:hover .icons{
+  transform: scale(1.2);
+}
+
+.button-class{
+  background: transparent;
+  border: 3px solid rgb(70, 27, 185) ;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.js-result{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.js-movess{
+  font-weight: bold;
+  font-size: 20px;
+}
+.js-score{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.autoplay-button,
+.reset-button{
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #a0232e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.autoplay-button:hover,
+.reset-button:hover{
+  background-color: #d62828;
+  transform: scale(1.05);
+}
+.autoplay-button:active,
+.reset-button:active{
+  transform: scale(0.97);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.gamee{
+  text-align: center;
+}
+
