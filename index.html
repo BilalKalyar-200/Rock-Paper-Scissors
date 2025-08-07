@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="button-container">
+      <button class="button-class js-rock-button">
+        <img src="rock.png" class="icons" />
+      </button>
+
+      <button class="button-class js-paper-button">
+        <img src="paper.png" class="icons" />
+      </button>
+
+      <button class="button-class js-scissors-button">
+        <img src="scissors.png" class="icons" />
+      </button>
+    </div>
+    <div class="gamee">
+      <p class="js-result"></p>
+      <p class="js-movess"></p>
+      <p class="js-score"></p>
+      <button
+        onclick="
+      score.losses=score.ties=score.wins=0;
+        localStorage.setItem('score',JSON.stringify(score));
+      update_score();
+      "
+        class="reset-button"
+      >
+        Reset Score
+      </button>
+      <br />
+      <br />
+      <button onclick="autoplay_func(); " class="autoplay-button">
+        Auto Play
+      </button>
+    </div>
+
+    <!-- =============================JavaScript=================================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
